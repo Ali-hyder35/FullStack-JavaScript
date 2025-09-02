@@ -11,12 +11,12 @@ Information Technology Specialist
 <body>
     <p id= "demo">  </p>
 
-  <button class="btn btn-btn-primary" onclick="clicked()"> Click me</button>
+  <button class="btn btn-primary" onclick="clicked()"> Click me</button>
 
   <script>
     function clicked()
       {
-        let var_click = document.getElementById("demo").innerHTML = "Hello , there i am clicked";
+         document.getElementById("demo").innerHTML = "Hello , there i am clicked";
 
         return true;
       }
